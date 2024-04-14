@@ -8,9 +8,13 @@ div.container {
     float: left;
     box-sizing: border-box; /* Include padding and border in the width calculation */
 }
+div.salary {
+    display: flex;
+    alignItems: center;
+    justify-content: space-between;
+}
 
 .custom-button-group {
+  display: flex;
   padding-bottom: 10px;
-  float: left;
-  justify-content: center;
 }

@@ -22,6 +22,7 @@ const Salary = () => {
   
   return (
     <div className="container">
+    <div className="salary"><h3>Salary</h3>
       <ButtonGroup className="custom-button-group">
         {radios.map((radio, idx) => (
           <ToggleButton
@@ -38,13 +39,13 @@ const Salary = () => {
           </ToggleButton>
         ))}
       </ButtonGroup>
+</div>
       <InputGroup className="mb-3">
         <DropdownButton
           variant="outline-secondary"
           id="input-group-dropdown-1"
           size="sm"
-          title={currency}
-        >
+          title={currency}>
           <Dropdown.Item onClick={() => handleCurrency("£")} eventKey="£">£</Dropdown.Item>
           <Dropdown.Item onClick={() => handleCurrency("$")} eventKey="$">$</Dropdown.Item>
           <Dropdown.Item onClick={() => handleCurrency("€")} eventKey="€">€</Dropdown.Item>
