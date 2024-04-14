@@ -1,0 +1,16 @@
+div.container {
+    text-align: center; /* Center-align text */
+    border: 2px solid black; /* Add border */
+    border-radius: 10px; /* Add border radius */
+    padding: 10px; /* Add padding */
+    margin: 20px;
+    width: 20%; /* Set width to 50% */
+    float: left;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.custom-button-group {
+  padding-bottom: 10px;
+  float: left;
+  justify-content: center;
+}
